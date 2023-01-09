@@ -6,7 +6,10 @@ let i = 0;
 button1.addEventListener("click", () => {
     head.innerHTML = ++i;
 });
-button2.addEventListener("click", () => { head.innerHTML = --i; });
+button2.addEventListener("click", () => { head.innerHTML = --i;
+                                        if(i<0){
+                                            i=0;
+                                        });
 reset.addEventListener("click", () => {
     head.innerHTML = 0;
     i = 0;
