@@ -1,0 +1,49 @@
+body {
+    background-color: #282828;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+h1 {
+    display: flex;
+    padding: 150px 250px 0 250px;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+button {
+    border: solid black 1px;
+    border-radius: 100%;
+    font-size: 20px;
+    color: black;
+    width: 50px;
+    height: 50px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.button1 {
+    margin-left: 205px;
+}
+
+.button2 {
+    margin-left: 20px;
+}
+
+.reset {
+    font-size: 10px;
+    height: 30px;
+    width: 40px;
+    border-radius: 4px;
+    position: relative;
+    top: 100px;
+    right: 83px;
+}
