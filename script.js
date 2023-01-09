@@ -8,8 +8,10 @@ button1.addEventListener("click", () => {
 });
 button2.addEventListener("click", () => { --i;
                                         if(i<0){
-                                           head.innerHTML =  i=0;
-                                        });
+                                             i=0;
+                                        }
+                                         head.innerHTML = i
+                                         );
 reset.addEventListener("click", () => {
     head.innerHTML = 0;
     i = 0;
