@@ -10,7 +10,7 @@ button2.addEventListener("click", () => { --i;
                                         if(i<0){
                                              i=0;
                                         }else{
-                                         head.innerHTML = i}
+                                         head.innerHTML = i}}
                                          );
 reset.addEventListener("click", () => {
     head.innerHTML = 0;
